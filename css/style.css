@@ -1,0 +1,51 @@
+body {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for readability */
+}
+
+a {
+  color: #00aaff; /* Subtle blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00d4ff; /* Brighter blue on hover */
+}
+
+.btn-outline-primary {
+  border: 2px solid #00aaff;
+  background-color: transparent;
+  color: #00aaff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #00aaff;
+  color: #000;
+}
+
+footer {
+  background-color: #121212; /* Dark gray footer */
+  color: #fff;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+ul {
+  margin-top: 0;
+}
+
+ul li {
+  line-height: 1.8;
+}
+
+.card {
+  background-color: #121212; /* Slightly lighter for cards */
+  border: 1px solid #333;
+}
+
+.card img {
+  border-radius: 5px;
+}
+
